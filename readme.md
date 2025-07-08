@@ -1,4 +1,4 @@
-# fw-Paralela
+# fw-407-FFG_Big_Board
 
 OMG a custom rusEFI firmware! Claim your bundle at https://rusefi.com/build_server/rusefi_bundle_paralela.zip
 
