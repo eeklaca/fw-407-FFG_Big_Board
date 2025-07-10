@@ -58,8 +58,8 @@
 #define adc_channel_e_EFI_ADC_ERROR 50
 #define adc_channel_e_EFI_ADC_NONE 0
 #define adc_channel_e_EFI_ADC_TOTAL_CHANNELS 49
-#define adc_channel_e_enum 0="NONE",1="Air Temp (PA0)",11="Analog In 10 (PC0)",13="Analog In 11 (PC2)",10="Analog In 7 (PB1)",6="BARO (PA5)",5="Battery (PA4)",7="CTPS (PA6)",2="Coolant Temp (PA1)",16="EMAP (PC5)",9="O2 (PB0)",4="On-board MAP (PA3)",14="PPS1 - DBW (C3)",8="PPS2 - DBW (A7)",3="TPS Front (PA2)",12="TPS1 - DBW (PC1)",15="TPS2 - DBW (PC4)"
-#define adc_channel_e_fullenum "NONE","Air Temp (PA0)","Coolant Temp (PA1)","TPS Front (PA2)","On-board MAP (PA3)","Battery (PA4)","BARO (PA5)","CTPS (PA6)","PPS2 - DBW (A7)","O2 (PB0)","Analog In 7 (PB1)","Analog In 10 (PC0)","TPS1 - DBW (PC1)","Analog In 11 (PC2)","PPS1 - DBW (C3)","TPS2 - DBW (PC4)","EMAP (PC5)"
+#define adc_channel_e_enum 0="NONE",1="Air Temp (PA0)",11="Analog In 10 (PC0)",13="Analog In 11 (PC2)",10="Analog In 7 (PB1)",6="BARO (PA5)",5="Battery (PA4)",7="CTPS (PA6)",2="Coolant Temp (PA1)",16="HB_Sense (PC5)",9="O2 (PB0)",4="On-board MAP (PA3)",14="PPS1 - DBW (C3)",8="PPS2 - DBW (A7)",3="TPS Front (PA2)",12="TPS1 - DBW (PC1)",15="TPS2 - DBW (PC4)"
+#define adc_channel_e_fullenum "NONE","Air Temp (PA0)","Coolant Temp (PA1)","TPS Front (PA2)","On-board MAP (PA3)","Battery (PA4)","BARO (PA5)","CTPS (PA6)","PPS2 - DBW (A7)","O2 (PB0)","Analog In 7 (PB1)","Analog In 10 (PC0)","TPS1 - DBW (PC1)","Analog In 11 (PC2)","PPS1 - DBW (C3)","TPS2 - DBW (PC4)","HB_Sense (PC5)"
 #define ADC_CHANNEL_NONE 0
 #define afr_sensor_s_size 20
 #define air_pressure_sensor_config_s_size 12
@@ -1385,8 +1385,8 @@
 #define operation_mode_e_FOUR_STROKE_TWELVE_TIMES_CRANK_SENSOR 6
 #define operation_mode_e_OM_NONE 0
 #define operation_mode_e_TWO_STROKE 3
-#define output_pin_e_enum 0="NONE",68="Coil 1 (PE2)",69="Coil 2 (PE3)",47="Coil 3 (PC13)",72="Coil 4 (PE6)",70="Coil 5 (PE4)",71="Coil 6 (PE5)",66="Coil 7 (PE0)",27="Coil 8 (PB9)",33="Injector 1 (PB15)",32="Injector 2 (PB14)",30="Injector 3 (PB12)",31="Injector 4 (PB13)",10="Injector 5 (PA8)",73="Injector 6 (PE7)",79="Injector 7 (PE13)",76="Injector 8 (PE10)"
-#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Injector 5 (PA8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Coil 8 (PB9)","INVALID","INVALID","Injector 3 (PB12)","Injector 4 (PB13)","Injector 2 (PB14)","Injector 1 (PB15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Coil 3 (PC13)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Coil 7 (PE0)","INVALID","Coil 1 (PE2)","Coil 2 (PE3)","Coil 5 (PE4)","Coil 6 (PE5)","Coil 4 (PE6)","Injector 6 (PE7)","INVALID","INVALID","Injector 8 (PE10)","INVALID","INVALID","Injector 7 (PE13)"
+#define output_pin_e_enum 0="NONE",58="Boost (PD8)",50="Can RX (PD0)",51="Can TX (PD1)",68="Coil 1 (PE2)",69="Coil 2 (PE3)",47="Coil 3 (PC13)",72="Coil 4 (PE6)",70="Coil 5 (PE4)",71="Coil 6 (PE5)",66="Coil 7 (PE0)",27="Coil 8 (PB9)",75="Fan (PE9)",77="Fuel Pump (PE11)",59="Idle 1 (PD9)",62="Idle 2 (PD12)",33="Injector 1 (PB15)",32="Injector 2 (PB14)",30="Injector 3 (PB12)",31="Injector 4 (PB13)",10="Injector 5 (PA8)",73="Injector 6 (PE7)",79="Injector 7 (PE13)",76="Injector 8 (PE10)",60="Out 1 (PD10)",12="RXD1 (PA10)",22="SPI1 MISO (PB4)",23="SPI1 MOSI (PB5)",21="SPI1 SCK (PB3)",45="SPI3 MISO (PC11)",46="SPI3 MOSI (PC12)",44="SPI3 SCK (PC10)",29="TB Control (PB11)",81="TB Dir1 (PE15)",28="TB Dir2 (PB10)",43="TB Disable (PC9)",11="TXD1 (PA9)",63="Tacho-Out 1 (PD13)",65="Tacho-Out 2 (PD15)",61="VVT 1 (PD11)",41="VVT 2 (PC7)"
+#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Injector 5 (PA8)","TXD1 (PA9)","RXD1 (PA10)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","SPI1 SCK (PB3)","SPI1 MISO (PB4)","SPI1 MOSI (PB5)","INVALID","INVALID","INVALID","Coil 8 (PB9)","TB Dir2 (PB10)","TB Control (PB11)","Injector 3 (PB12)","Injector 4 (PB13)","Injector 2 (PB14)","Injector 1 (PB15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VVT 2 (PC7)","INVALID","TB Disable (PC9)","SPI3 SCK (PC10)","SPI3 MISO (PC11)","SPI3 MOSI (PC12)","Coil 3 (PC13)","INVALID","INVALID","Can RX (PD0)","Can TX (PD1)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Boost (PD8)","Idle 1 (PD9)","Out 1 (PD10)","VVT 1 (PD11)","Idle 2 (PD12)","Tacho-Out 1 (PD13)","INVALID","Tacho-Out 2 (PD15)","Coil 7 (PE0)","INVALID","Coil 1 (PE2)","Coil 2 (PE3)","Coil 5 (PE4)","Coil 6 (PE5)","Coil 4 (PE6)","Injector 6 (PE7)","INVALID","Fan (PE9)","Injector 8 (PE10)","Fuel Pump (PE11)","INVALID","Injector 7 (PE13)","INVALID","TB Dir1 (PE15)"
 #define PACK_ADD_TEMPERATURE 40
 #define PACK_MULT_AFR 1000
 #define PACK_MULT_AFR_CFG 10
@@ -1492,7 +1492,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 2424953013
+#define SIGNATURE_HASH 3685791608
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -2032,7 +2032,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.07.10.ffgbigboard.2424953013"
+#define TS_SIGNATURE "rusEFI main.2025.07.10.ffgbigboard.3685791608"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
