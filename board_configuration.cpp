@@ -121,15 +121,12 @@ void setBoardDefaultConfiguration(void) {
 	engineConfiguration->spi1mosiPin = Gpio::B5;
 	engineConfiguration->spi1misoPin = Gpio::B4;
 	engineConfiguration->spi1sckPin = Gpio::B3;
-
 	engineConfiguration->spi2mosiPin = Gpio::Unassigned;
 	engineConfiguration->spi2misoPin = Gpio::Unassigned;
 	engineConfiguration->spi2sckPin = Gpio::Unassigned;
-
 	engineConfiguration->spi3mosiPin = Gpio::C12;
 	engineConfiguration->spi3misoPin = Gpio::C11;
 	engineConfiguration->spi3sckPin = Gpio::C10;
-
 	engineConfiguration->is_enabled_spi_1 = true;
 	engineConfiguration->is_enabled_spi_2 = false;
 	engineConfiguration->is_enabled_spi_3 = true;
