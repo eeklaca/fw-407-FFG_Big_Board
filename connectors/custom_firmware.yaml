@@ -2,7 +2,6 @@ pins:
 
   - id: B15
     class: outputs
-    meta: Injector 1
     ts_name: Injector 1 (PB15)
     function: Injector 1
     color: pink
@@ -10,7 +9,6 @@ pins:
     
   - id: B14
     class: outputs
-    meta: Injector 2
     ts_name: Injector 2 (PB14)
     function: Injector 2
     color: pink
@@ -18,7 +16,6 @@ pins:
 
   - id: B12
     class: outputs
-    meta: Injector 3
     ts_name: Injector 3 (PB12)
     function: Injector 3
     color: pink
@@ -26,7 +23,6 @@ pins:
 
   - id: B13
     class: outputs
-    meta: Injector 4
     ts_name: Injector 4 (PB13)
     function: Injector 4
     color: pink
@@ -34,7 +30,6 @@ pins:
 
   - id: A8
     class: outputs
-    meta: Injector 5
     ts_name: Injector 5 (PA8)
     function: Injector 5
     color: pink
@@ -42,7 +37,6 @@ pins:
 
   - id: E7
     class: outputs
-    meta: Injector 6
     ts_name: Injector 6 (PE7)
     function: Injector 6
     color: pink
@@ -50,7 +44,6 @@ pins:
 
   - id: E13
     class: outputs
-    meta: Injector 7
     ts_name: Injector 7 (PE13)
     function: Injector 7
     color: pink
@@ -58,7 +51,6 @@ pins:
 
   - id: E10
     class: outputs
-    meta: Injector 8
     ts_name: Injector 8 (PE10)
     function: Injector 8
     color: pink
@@ -66,7 +58,6 @@ pins:
 
   - id: E2
     class: outputs
-    meta: Coil 1
     ts_name: Coil 1 (PE2)
     function: Coil 1
     color: orange
@@ -75,7 +66,6 @@ pins:
 
   - id: E3
     class: outputs
-    meta: Coil 2
     ts_name: Coil 2 (PE3)
     function: Coil 2
     color: orange
@@ -84,7 +74,6 @@ pins:
 
   - id: C13
     class: outputs
-    meta: Coil 3
     ts_name: Coil 3 (PC13)
     function: Coil 3
     color: orange
@@ -93,7 +82,6 @@ pins:
 
   - id: E6
     class: outputs
-    meta: Coil 4
     ts_name: Coil 4 (PE6)
     function: Coil 4
     color: orange
@@ -102,7 +90,6 @@ pins:
 
   - id: E4
     class: outputs
-    meta: Coil 5
     ts_name: Coil 5 (PE4)
     function: Coil 5
     color: orange
@@ -111,7 +98,6 @@ pins:
 
   - id: E5
     class: outputs
-    meta: Coil 6
     ts_name: Coil 6 (PE5)
     function: Coil 6
     color: orange
@@ -120,7 +106,6 @@ pins:
 
   - id: E0
     class: outputs
-    meta: Coil 7
     ts_name: Coil 7 (PE0)
     function: Coil 7
     color: orange
@@ -129,7 +114,6 @@ pins:
 
   - id: B9
     class: outputs
-    meta: Coil 8
     ts_name: Coil 8 (PB9)
     function: Coil 8
     color: orange
@@ -137,7 +121,6 @@ pins:
     
   - id: EFI_ADC_0
     class: analog_inputs
-    meta: Air Temp
 # getAdcChannelBrainPin in 'stm32_adc.cpp' says EFI_ADC_0 is PA0
     ts_name: Air Temp (PA0)
     color: green
@@ -145,161 +128,138 @@ pins:
 
   - id: EFI_ADC_1
     class: analog_inputs
-    meta: Coolant Temp
     ts_name: Coolant Temp (PA1)
     color: green
     type: AnT
 
   - id: EFI_ADC_2
     class: analog_inputs
-    meta: TPS Front
     ts_name: TPS Front (PA2)
     color: green
     type: AnV
 
   - id: EFI_ADC_3
     class: analog_inputs
-    meta: On-board MAP
     ts_name: On-board MAP (PA3)
     color: green
     type: AnV
 
   - id: EFI_ADC_4
     class: analog_inputs
-    meta: Battery
     ts_name: Battery (PA4)
     color: green
     type: AnV
 
   - id: EFI_ADC_5
     class: analog_inputs
-    meta: BARO
     ts_name: BARO (PA5)
     color: green
     type: AnV
 
   - id: EFI_ADC_6
     class: analog_inputs
-    meta: CTPS
     ts_name: CTPS (PA6)
     color: green
     type: AnV
 
   - id: EFI_ADC_7
     class: analog_inputs
-    meta: PPS2
     ts_name: PPS2 - DBW (A7)
     color: green
     type: AnV
 
   - id: EFI_ADC_8
     class: analog_inputs
-    meta: O2
     ts_name: O2 (PB0)
     color: green
     type: AnV
 
   - id: EFI_ADC_9
     class: analog_inputs
-    meta: Analog In 7
     ts_name: Analog In 7 (PB1)
     color: green
     type: AnT
 
   - id: EFI_ADC_10
     class: analog_inputs
-    meta: Analog In 10
     ts_name: Analog In 10 (PC0)
     color: green
     type: AnT
 
   - id: EFI_ADC_11
     class: analog_inputs
-    meta: TPS1
     ts_name: TPS1 - DBW (PC1)
     color: green
     type: AnV
 
   - id: EFI_ADC_12
     class: analog_inputs
-    meta: Analog In 11
     ts_name: Analog In 11 (PC2)
     color: green
     type: AnT
 
   - id: EFI_ADC_13
     class: analog_inputs
-    meta: PPS1
     ts_name: PPS1 - DBW (C3)
     color: green
     type: AnV
 
   - id: EFI_ADC_14
     class: analog_inputs
-    meta: TPS2
     ts_name: TPS2 - DBW (PC4)
     color: green
     type: AnV
 
   - id: EFI_ADC_15
     class: analog_inputs
-    meta: EMAP
     ts_name: EMAP (PC5)
     color: green
     type: AnV
 
   - id: [B8, B8]
     class: [switch_inputs, event_inputs]
-    meta: Table Switch
     ts_name: Table Switch (PB8)
     color: blue
     type: SWIN
 
   - id: [D14, D14]
     class: [switch_inputs, event_inputs]
-    meta: Launch-In
     ts_name: Launch-In (PD14)
     color: blue
     type: SWIN
 
   - id: [E14, E14]
     class: [switch_inputs, event_inputs]
-    meta: Digitl-In 3
     ts_name: Digital-In 3 (PE14)
     color: blue
     type: SWIN
 
   - id: [C6, C6]
     class: [switch_inputs, event_inputs]
-    meta: Digital-In 4
     ts_name: Digital-In 4 (PC6)
     color: blue
     type: SWIN
 
   - id: [D3, D3]
     class: [switch_inputs, event_inputs]
-    meta: VR / Hall 1
     ts_name: VR / Hall 1 (PD3)
     color: blue
     type: Trig
 
   - id: [D4, D4]
     class: [switch_inputs, event_inputs]
-    meta: VR / Hall 2
     ts_name: VR / Hall 2 (PD4)
     color: blue
     type: Trig
 
   - id: [E8, E8]
     class: [switch_inputs, event_inputs]
-    meta: VR / Hall 3
     ts_name: VR / Hall 3 (PE8)
     color: blue
     type: Trig
 
   - id: [E12, E12]
     class: [switch_inputs, event_inputs]
-    meta: VR / Hall 4
     ts_name: VR / Hall 4 (PE12)
     color: blue
     type: Trig
