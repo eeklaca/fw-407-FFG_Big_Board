@@ -63,14 +63,12 @@ pins:
     color: orange
     type: ign
 
-
   - id: E3
     class: outputs
     ts_name: Coil 2 (PE3)
     function: Coil 2
     color: orange
     type: ign
-
 
   - id: C13
     class: outputs
@@ -79,14 +77,12 @@ pins:
     color: orange
     type: ign
 
-
   - id: E6
     class: outputs
     ts_name: Coil 4 (PE6)
     function: Coil 4
     color: orange
     type: ign
-
 
   - id: E4
     class: outputs
@@ -95,14 +91,12 @@ pins:
     color: orange
     type: ign
 
-
   - id: E5
     class: outputs
     ts_name: Coil 6 (PE5)
     function: Coil 6
     color: orange
     type: ign
-
 
   - id: E0
     class: outputs
@@ -111,13 +105,191 @@ pins:
     color: orange
     type: ign
 
-
   - id: B9
     class: outputs
     ts_name: Coil 8 (PB9)
     function: Coil 8
     color: orange
     type: ign
+
+  - id: D9
+    class: outputs
+    ts_name: Idle 1 (PD9)
+    function: Idle 1
+    color: white
+    type: LS_pwm
+
+  - id: D12
+    class: outputs
+    ts_name: Idle 2 (PD12)
+    function: Idle 2
+    color: white
+    type: LS_pwm
+
+  - id: D10
+    class: outputs
+    ts_name: Out 1 (PD10)
+    function: Out 1
+    color: white
+    type: LS_pwm
+
+  - id: D11
+    class: outputs
+    ts_name: Out 2 (PD11)
+    function: Out 2
+    color: white
+    type: LS_pwm
+
+  - id:C9
+    class: outputs
+    ts_name: Out 3 (PC9)
+    function: Out 3
+    color: white
+    type: LS_pwm
+
+  - id: E9
+    class: outputs
+    ts_name: VVT 1 (PE9)
+    function: VVT 1
+    color: white
+    type: LS_pwm
+
+  - id: D8
+    class: outputs
+    ts_name: VVT2 (PD8)
+    function: VVT2
+    color: white
+    type: LS_pwm
+
+  - id: E11
+    class: outputs
+    ts_name: Fuel Pump (PE11)
+    function: Fuel Pump
+    color: white
+    type: LS
+
+  - id: C7
+    class: outputs
+    ts_name: Boost (PC7)
+    function: Boost
+    color: white
+    type: LS_pwm
+
+  - id: D0
+    class: outputs
+    ts_name: Can RX (PD0)
+    function: Can RX
+    color: purple
+    type: can
+
+  - id: D1
+    class: outputs
+    ts_name: Can TX (PD1)
+    function: Can TX
+    color: purple
+    type: can
+
+  - id: B5
+    class: outputs
+    ts_name: SPI1 MOSI (PB5)
+    function: SPI1 MOSI
+    color: grey
+    type: spi
+
+  - id: B4
+    class: outputs
+    ts_name: SPI1 MISO (PB4)
+    function: SPI1 MISO
+    color: grey
+    type: spi
+
+  - id: B3
+    class: outputs
+    ts_name: SPI1 SCK (PB3)
+    function: SPI1 SCK
+    color: grey
+    type: spi
+
+
+  - id: C12
+    class: outputs
+    ts_name: SPI3 MOSI (PC12)
+    function: SPI3 MOSI
+    color: grey
+    type: spi
+
+
+  - id: C13
+    class: outputs
+    ts_name: SPI3 MISO (PC13)
+    function: SPI3 MISO
+    color: grey
+    type: spi
+
+
+  - id: C10
+    class: outputs
+    ts_name: SPI3 SCK (PC10)
+    function: SPI3 SCK
+    color: grey
+    type: spi
+
+
+  - id: D13
+    class: outputs
+    ts_name: Tacho-Out 1 (PD13)
+    function: Tacho-Out 1
+    color: white
+    type: LS_pwm
+
+  - id: D15
+    class: outputs
+    ts_name: Tacho-Out 2 (PD15)
+    function: Tacho-Out 2
+    color: white
+    type: LS_pwm
+
+  - id: E15
+    class: outputs
+    ts_name: TB Dir1 (PE15)
+    function: TB Dir1
+    color: red
+    type: etb
+
+  - id: B10
+    class: outputs
+    ts_name: TB Dir2 (PB10)
+    function: TB Dir2
+    color: red
+    type: etb
+
+  - id: B11
+    class: outputs
+    ts_name: TB Control (PB11)
+    function: TB Control
+    color: red
+    type: etb
+
+  - id: C9
+    class: outputs
+    ts_name: TB Disable (PC9)
+    function: TB Disable
+    color: red
+    type: etb,
+
+  - id: A9
+    class: outputs
+    ts_name: TXD1 (PA9)
+    function: TXD1
+    color: black
+    type: uart
+
+  - id: A10
+    class: outputs
+    ts_name: RXD1 (PA10)
+    function: RXD1
+    color: black
+    type: uart
     
   - id: EFI_ADC_0
     class: analog_inputs
@@ -212,7 +384,7 @@ pins:
 
   - id: EFI_ADC_15
     class: analog_inputs
-    ts_name: EMAP (PC5)
+    ts_name: HB_Sense (PC5)
     color: green
     type: AnV
 
