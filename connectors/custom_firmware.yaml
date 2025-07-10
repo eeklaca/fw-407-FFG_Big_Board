@@ -140,7 +140,7 @@ pins:
     color: white
     type: LS_pwm
 
-  - id:C9
+  - id: C9
     class: outputs
     ts_name: Out 3 (PC9)
     function: Out 3
