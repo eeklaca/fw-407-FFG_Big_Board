@@ -1,6 +1,6 @@
 #include "pch.h"
 
-static void setInjectorPins() {
+void setInjectorPins() {
 	engineConfiguration->injectionPins[0] = Gpio::B15;
 	engineConfiguration->injectionPins[1] = Gpio::B14;
 	engineConfiguration->injectionPins[2] = Gpio::B12;
@@ -11,7 +11,7 @@ static void setInjectorPins() {
 	engineConfiguration->injectionPins[7] = Gpio::E10;
 }
 
-static void setIgnitionPins() {
+void setIgnitionPins() {
 	engineConfiguration->ignitionPins[0] = Gpio::E2;
 	engineConfiguration->ignitionPins[1] = Gpio::E3;
 	engineConfiguration->ignitionPins[2] = Gpio::C13;
@@ -22,7 +22,7 @@ static void setIgnitionPins() {
 	engineConfiguration->ignitionPins[7] = Gpio::B9;
 }
 
-static void setEtbConfig() {
+void setEtbConfig() {
 	// VNH7070 driver
 	// This chip has four control pins:
 	// DIR1 - open direction of the motor
@@ -54,7 +54,7 @@ static void setEtbConfig() {
 	engineConfiguration->etb_use_two_wires = false;
 }
 
-static void setupVbatt() {
+void setupVbatt() {
 	// 910R high side/470R low side = 1.54 ratio divider
 	engineConfiguration->analogInputDividerCoefficient = 1.54f;
 	
@@ -67,7 +67,7 @@ static void setupVbatt() {
 	engineConfiguration->adcVcc = 3.3f;
 }
 
-static void setStepperConfig() {
+void setStepperConfig() {
 	engineConfiguration->idle.stepperDirectionPin = Gpio::Unassigned;
 	engineConfiguration->idle.stepperStepPin = Gpio::Unassigned;
 	engineConfiguration->stepperEnablePin = Gpio::Unassigned;
