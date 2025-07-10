@@ -4,6 +4,6 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
+	Gpio::B14, // Injector 2
+// "Injector 2",
 }
