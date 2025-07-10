@@ -6,23 +6,46 @@
 // see comments at declaration in pin_repository.h
 const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
+		case Gpio::A10: return "RXD1 (PA10)";
 		case Gpio::A8: return "Injector 5 (PA8)";
+		case Gpio::A9: return "TXD1 (PA9)";
+		case Gpio::B10: return "TB Dir2 (PB10)";
+		case Gpio::B11: return "TB Control (PB11)";
 		case Gpio::B12: return "Injector 3 (PB12)";
 		case Gpio::B13: return "Injector 4 (PB13)";
 		case Gpio::B14: return "Injector 2 (PB14)";
 		case Gpio::B15: return "Injector 1 (PB15)";
+		case Gpio::B3: return "SPI1 SCK (PB3)";
+		case Gpio::B4: return "SPI1 MISO (PB4)";
+		case Gpio::B5: return "SPI1 MOSI (PB5)";
 		case Gpio::B8: return "Table Switch (PB8)";
 		case Gpio::B9: return "Coil 8 (PB9)";
+		case Gpio::C10: return "SPI3 SCK (PC10)";
+		case Gpio::C11: return "SPI3 MISO (PC11)";
+		case Gpio::C12: return "SPI3 MOSI (PC12)";
 		case Gpio::C13: return "Coil 3 (PC13)";
 		case Gpio::C6: return "Digital-In 4 (PC6)";
+		case Gpio::C7: return "VVT 2 (PC7)";
+		case Gpio::C9: return "TB Disable (PC9)";
+		case Gpio::D0: return "Can RX (PD0)";
+		case Gpio::D1: return "Can TX (PD1)";
+		case Gpio::D10: return "Out 1 (PD10)";
+		case Gpio::D11: return "VVT 1 (PD11)";
+		case Gpio::D12: return "Idle 2 (PD12)";
+		case Gpio::D13: return "Tacho-Out 1 (PD13)";
 		case Gpio::D14: return "Launch-In (PD14)";
+		case Gpio::D15: return "Tacho-Out 2 (PD15)";
 		case Gpio::D3: return "VR / Hall 1 (PD3)";
 		case Gpio::D4: return "VR / Hall 2 (PD4)";
+		case Gpio::D8: return "Boost (PD8)";
+		case Gpio::D9: return "Idle 1 (PD9)";
 		case Gpio::E0: return "Coil 7 (PE0)";
 		case Gpio::E10: return "Injector 8 (PE10)";
+		case Gpio::E11: return "Fuel Pump (PE11)";
 		case Gpio::E12: return "VR / Hall 4 (PE12)";
 		case Gpio::E13: return "Injector 7 (PE13)";
 		case Gpio::E14: return "Digital-In 3 (PE14)";
+		case Gpio::E15: return "TB Dir1 (PE15)";
 		case Gpio::E2: return "Coil 1 (PE2)";
 		case Gpio::E3: return "Coil 2 (PE3)";
 		case Gpio::E4: return "Coil 5 (PE4)";
@@ -30,6 +53,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::E6: return "Coil 4 (PE6)";
 		case Gpio::E7: return "Injector 6 (PE7)";
 		case Gpio::E8: return "VR / Hall 3 (PE8)";
+		case Gpio::E9: return "Fan (PE9)";
 		default: return nullptr;
 	}
 	return nullptr;

@@ -12,6 +12,7 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::E7, // Injector 6 (PE7)
 	Gpio::E13, // Injector 7 (PE13)
 	Gpio::E10, // Injector 8 (PE10)
+	Gpio::E11, // Fuel Pump (PE11)
 	Gpio::E2, // Coil 1 (PE2)
 	Gpio::E3, // Coil 2 (PE3)
 	Gpio::C13, // Coil 3 (PC13)
@@ -20,6 +21,29 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::E5, // Coil 6 (PE5)
 	Gpio::E0, // Coil 7 (PE0)
 	Gpio::B9, // Coil 8 (PB9)
+	Gpio::D9, // Idle 1 (PD9)
+	Gpio::D12, // Idle 2 (PD12)
+	Gpio::D10, // Out 1 (PD10)
+	Gpio::D11, // VVT 1 (PD11)
+	Gpio::E9, // Fan (PE9)
+	Gpio::D8, // Boost (PD8)
+	Gpio::C7, // VVT 2 (PC7)
+	Gpio::D0, // Can RX (PD0)
+	Gpio::D1, // Can TX (PD1)
+	Gpio::B5, // SPI1 MOSI (PB5)
+	Gpio::B4, // SPI1 MISO (PB4)
+	Gpio::B3, // SPI1 SCK (PB3)
+	Gpio::C12, // SPI3 MOSI (PC12)
+	Gpio::C11, // SPI3 MISO (PC11)
+	Gpio::C10, // SPI3 SCK (PC10)
+	Gpio::D13, // Tacho-Out 1 (PD13)
+	Gpio::D15, // Tacho-Out 2 (PD15)
+	Gpio::E15, // TB Dir1 (PE15)
+	Gpio::B10, // TB Dir2 (PB10)
+	Gpio::B11, // TB Control (PB11)
+	Gpio::C9, // TB Disable (PC9)
+	Gpio::A9, // TXD1 (PA9)
+	Gpio::A10, // RXD1 (PA10)
 // "Injector 1 (PB15)",
 // "Injector 2 (PB14)",
 // "Injector 3 (PB12)",
@@ -28,6 +52,7 @@ Gpio GENERATED_OUTPUTS = {
 // "Injector 6 (PE7)",
 // "Injector 7 (PE13)",
 // "Injector 8 (PE10)",
+// "Fuel Pump (PE11)",
 // "Coil 1 (PE2)",
 // "Coil 2 (PE3)",
 // "Coil 3 (PC13)",
@@ -36,4 +61,27 @@ Gpio GENERATED_OUTPUTS = {
 // "Coil 6 (PE5)",
 // "Coil 7 (PE0)",
 // "Coil 8 (PB9)",
+// "Idle 1 (PD9)",
+// "Idle 2 (PD12)",
+// "Out 1 (PD10)",
+// "VVT 1 (PD11)",
+// "Fan (PE9)",
+// "Boost (PD8)",
+// "VVT 2 (PC7)",
+// "Can RX (PD0)",
+// "Can TX (PD1)",
+// "SPI1 MOSI (PB5)",
+// "SPI1 MISO (PB4)",
+// "SPI1 SCK (PB3)",
+// "SPI3 MOSI (PC12)",
+// "SPI3 MISO (PC11)",
+// "SPI3 SCK (PC10)",
+// "Tacho-Out 1 (PD13)",
+// "Tacho-Out 2 (PD15)",
+// "TB Dir1 (PE15)",
+// "TB Dir2 (PB10)",
+// "TB Control (PB11)",
+// "TB Disable (PC9)",
+// "TXD1 (PA9)",
+// "RXD1 (PA10)",
 }
