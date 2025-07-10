@@ -15,7 +15,6 @@ DDEFS += -DRAM_UNUSED_SIZE=100
 # good old PD14 is still the default value
 # DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::I15
 
-
 # List of all the board related files.
 BOARDCPPSRC = $(BOARD_DIR)/board_configuration.cpp
 
