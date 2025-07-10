@@ -219,9 +219,9 @@ pins:
     type: spi
 
 
-  - id: C13
+  - id: C11
     class: outputs
-    ts_name: SPI3 MISO (PC13)
+    ts_name: SPI3 MISO (PC11)
     function: SPI3 MISO
     color: grey
     type: spi
