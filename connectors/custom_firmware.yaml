@@ -135,29 +135,22 @@ pins:
 
   - id: D11
     class: outputs
-    ts_name: Out 2 (PD11)
-    function: Out 2
-    color: white
-    type: LS_pwm
-
-  - id: C9
-    class: outputs
-    ts_name: Out 3 (PC9)
-    function: Out 3
+    ts_name: VVT 1 (PD11)
+    function: VVT 1
     color: white
     type: LS_pwm
 
   - id: E9
     class: outputs
-    ts_name: VVT 1 (PE9)
-    function: VVT 1
+    ts_name: Fan (PE9)
+    function: Fan
     color: white
     type: LS_pwm
 
   - id: D8
     class: outputs
-    ts_name: VVT2 (PD8)
-    function: VVT2
+    ts_name: Boost (PD8)
+    function: Boost
     color: white
     type: LS_pwm
 
@@ -170,8 +163,8 @@ pins:
 
   - id: C7
     class: outputs
-    ts_name: Boost (PC7)
-    function: Boost
+    ts_name: VVT 2 (PC7)
+    function: VVT 2
     color: white
     type: LS_pwm
 
