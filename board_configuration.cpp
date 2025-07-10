@@ -22,7 +22,7 @@ void setIgnitionPins() {
 	engineConfiguration->ignitionPins[7] = Gpio::B9;
 }
 
-void setEtbConfig() {
+//void setEtbConfig() {
 	// VNH7070 driver
 	// This chip has four control pins:
 	// DIR1 - open direction of the motor
@@ -32,27 +32,27 @@ void setEtbConfig() {
 
 	// Throttle #1
 	// PWM pin
-	engineConfiguration->etbIo[0].controlPin = Gpio::B11;
+//	engineConfiguration->etbIo[0].controlPin = Gpio::B11;
 	// DIR1 pin
-	engineConfiguration->etbIo[0].directionPin1 = Gpio::E15;
+//	engineConfiguration->etbIo[0].directionPin1 = Gpio::E15;
 	// DIR2 pin
-	engineConfiguration->etbIo[0].directionPin2 = Gpio::B10;
+//	engineConfiguration->etbIo[0].directionPin2 = Gpio::B10;
 	// Disable pin
-	engineConfiguration->etbIo[0].disablePin = Gpio::C9;
+//	engineConfiguration->etbIo[0].disablePin = Gpio::C9;
 
 	// Throttle #2
 	// PWM pin
-	engineConfiguration->etbIo[1].controlPin = Gpio::Unassigned;
+//	engineConfiguration->etbIo[1].controlPin = Gpio::Unassigned;
 	// DIR1 pin
-	engineConfiguration->etbIo[1].directionPin1 = Gpio::Unassigned;
+//	engineConfiguration->etbIo[1].directionPin1 = Gpio::Unassigned;
 	// DIR2 pin
-	engineConfiguration->etbIo[1].directionPin2 = Gpio::Unassigned;
+//	engineConfiguration->etbIo[1].directionPin2 = Gpio::Unassigned;
 	// Disable pin
-	engineConfiguration->etbIo[1].disablePin = Gpio::Unassigned;
+//	engineConfiguration->etbIo[1].disablePin = Gpio::Unassigned;
 
 	// we only have pwm/dir, no dira/dirb
-	engineConfiguration->etb_use_two_wires = false;
-}
+//	engineConfiguration->etb_use_two_wires = false;
+//}
 
 void setupVbatt() {
 	// 910R high side/470R low side = 1.54 ratio divider
@@ -104,7 +104,7 @@ void setBoardConfigOverrides() {
 void setBoardDefaultConfiguration(void) {
 	setInjectorPins();
 	setIgnitionPins();
-	setEtbConfig();
+//	setEtbConfig();
 	setStepperConfig();
 
 	engineConfiguration->isSdCardEnabled = true;
