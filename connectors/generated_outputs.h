@@ -4,6 +4,36 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::B14, // Injector 2
-// "Injector 2",
+	Gpio::B15, // Injector 1 (PB15)
+	Gpio::B14, // Injector 2 (PB14)
+	Gpio::B12, // Injector 3 (PB12)
+	Gpio::B13, // Injector 4 (PB13)
+	Gpio::A8, // Injector 5 (PA8)
+	Gpio::E7, // Injector 6 (PE7)
+	Gpio::E13, // Injector 7 (PE13)
+	Gpio::E10, // Injector 8 (PE10)
+	Gpio::E2, // Coil 1 (PE2)
+	Gpio::E3, // Coil 2 (PE3)
+	Gpio::C13, // Coil 3 (PC13)
+	Gpio::E6, // Coil 4 (PE6)
+	Gpio::E4, // Coil 5 (PE4)
+	Gpio::E5, // Coil 6 (PE5)
+	Gpio::E0, // Coil 7 (PE0)
+	Gpio::B9, // Coil 8 (PB9)
+// "Injector 1 (PB15)",
+// "Injector 2 (PB14)",
+// "Injector 3 (PB12)",
+// "Injector 4 (PB13)",
+// "Injector 5 (PA8)",
+// "Injector 6 (PE7)",
+// "Injector 7 (PE13)",
+// "Injector 8 (PE10)",
+// "Coil 1 (PE2)",
+// "Coil 2 (PE3)",
+// "Coil 3 (PC13)",
+// "Coil 4 (PE6)",
+// "Coil 5 (PE4)",
+// "Coil 6 (PE5)",
+// "Coil 7 (PE0)",
+// "Coil 8 (PB9)",
 }
