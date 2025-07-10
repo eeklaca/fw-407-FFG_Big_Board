@@ -1385,8 +1385,8 @@
 #define operation_mode_e_FOUR_STROKE_TWELVE_TIMES_CRANK_SENSOR 6
 #define operation_mode_e_OM_NONE 0
 #define operation_mode_e_TWO_STROKE 3
-#define output_pin_e_enum 0="NONE",32="Injector 2"
-#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Injector 2"
+#define output_pin_e_enum 0="NONE",68="Coil 1 (PE2)",69="Coil 2 (PE3)",47="Coil 3 (PC13)",72="Coil 4 (PE6)",70="Coil 5 (PE4)",71="Coil 6 (PE5)",66="Coil 7 (PE0)",27="Coil 8 (PB9)",33="Injector 1 (PB15)",32="Injector 2 (PB14)",30="Injector 3 (PB12)",31="Injector 4 (PB13)",10="Injector 5 (PA8)",73="Injector 6 (PE7)",79="Injector 7 (PE13)",76="Injector 8 (PE10)"
+#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Injector 5 (PA8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Coil 8 (PB9)","INVALID","INVALID","Injector 3 (PB12)","Injector 4 (PB13)","Injector 2 (PB14)","Injector 1 (PB15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Coil 3 (PC13)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Coil 7 (PE0)","INVALID","Coil 1 (PE2)","Coil 2 (PE3)","Coil 5 (PE4)","Coil 6 (PE5)","Coil 4 (PE6)","Injector 6 (PE7)","INVALID","INVALID","Injector 8 (PE10)","INVALID","INVALID","Injector 7 (PE13)"
 #define PACK_ADD_TEMPERATURE 40
 #define PACK_MULT_AFR 1000
 #define PACK_MULT_AFR_CFG 10
@@ -1492,7 +1492,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 469923821
+#define SIGNATURE_HASH 2424953013
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -2032,7 +2032,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.07.10.ffgbigboard.469923821"
+#define TS_SIGNATURE "rusEFI main.2025.07.10.ffgbigboard.2424953013"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
