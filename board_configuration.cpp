@@ -87,7 +87,9 @@ Gpio getWarningLedPin() {
 
 void setBoardConfigOverrides() {
 	setupVbatt();
-
+	setEtbConfig();
+	setStepperConfig();
+	
 	engineConfiguration->clt.config.bias_resistor = 2490;
 	engineConfiguration->iat.config.bias_resistor = 2490;
 
@@ -104,8 +106,6 @@ void setBoardConfigOverrides() {
 void setBoardDefaultConfiguration(void) {
 	setInjectorPins();
 	setIgnitionPins();
-	setEtbConfig();
-	setStepperConfig();
 
 	engineConfiguration->isSdCardEnabled = true;
 
