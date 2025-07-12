@@ -102,7 +102,7 @@ void setBoardConfigOverrides() {
 	engineConfiguration->can2TxPin = Gpio::Unassigned;
 
 	engineConfiguration->binarySerialTxPin = Gpio::A9;
-	engineConfiguration->binarySerialRxPinn = Gpio::A10;
+	engineConfiguration->binarySerialRxPin = Gpio::A10;
 
 }
 
