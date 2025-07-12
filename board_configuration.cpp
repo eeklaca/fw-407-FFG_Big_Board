@@ -100,6 +100,10 @@ void setBoardConfigOverrides() {
 	//CAN 2 bus overwrites
 	engineConfiguration->can2RxPin = Gpio::Unassigned;
 	engineConfiguration->can2TxPin = Gpio::Unassigned;
+
+	engineConfiguration->binarySerialTxPin = Gpio::A9;
+	engineConfiguration->binarySerialRxPinn = Gpio::A10;
+
 }
 
 // board-specific configuration setup
