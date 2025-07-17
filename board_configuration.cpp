@@ -86,9 +86,6 @@ Gpio getWarningLedPin() {
 }
 
 void setBoardConfigOverrides() {
-	setupVbatt();
-	setEtbConfig();
-	setStepperConfig();
 	
 	engineConfiguration->clt.config.bias_resistor = 2490;
 	engineConfiguration->iat.config.bias_resistor = 2490;
@@ -108,6 +105,9 @@ void setBoardConfigOverrides() {
 
 // board-specific configuration setup
 void setBoardDefaultConfiguration(void) {
+	setupVbatt();
+	setEtbConfig();
+	setStepperConfig();
 	setInjectorPins();
 	setIgnitionPins();
 
