@@ -162,8 +162,8 @@
 #define boostType_e_auto_enum 0="OPEN_LOOP",1="CLOSED_LOOP"
 #define boostType_e_CLOSED_LOOP 1
 #define boostType_e_OPEN_LOOP 0
-#define brain_input_pin_e_enum 0="NONE",80="Digital-In 3 (PE14)",40="Digital-In 4 (PC6)",64="Launch-In (PD14)",26="Table Switch (PB8)",53="VR / Hall 1 (PD3)",54="VR / Hall 2 (PD4)",74="VR / Hall 3 (PE8)",78="VR / Hall 4 (PE12)"
-#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Table Switch (PB8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 4 (PC6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 1 (PD3)","VR / Hall 2 (PD4)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch-In (PD14)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 3 (PE8)","INVALID","INVALID","INVALID","VR / Hall 4 (PE12)","INVALID","Digital-In 3 (PE14)"
+#define brain_input_pin_e_enum 0="NONE",57="Digital-In 1 (PD7)",24="Digital-In 2 (PB6)",80="Digital-In 3 (PE14)",40="Digital-In 4 (PC6)",64="Launch-In (PD14)",26="Table Switch (PB8)",53="VR / Hall 1 (PD3)",54="VR / Hall 2 (PD4)",74="VR / Hall 3 (PE8)",78="VR / Hall 4 (PE12)"
+#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 2 (PB6)","INVALID","Table Switch (PB8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 4 (PC6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 1 (PD3)","VR / Hall 2 (PD4)","INVALID","INVALID","Digital-In 1 (PD7)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch-In (PD14)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 3 (PE8)","INVALID","INVALID","INVALID","VR / Hall 4 (PE12)","INVALID","Digital-In 3 (PE14)"
 #define brain_pin_diag_e_PIN_DRIVER_OFF 0x20
 #define brain_pin_diag_e_PIN_DRIVER_OVERTEMP 0x10
 #define brain_pin_diag_e_PIN_OK 0
@@ -1500,7 +1500,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 3830261474
+#define SIGNATURE_HASH 2595354571
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1524,8 +1524,8 @@
 #define stft_cell_cfg_s_size 4
 #define STFT_CELL_COUNT 4
 #define stft_s_size 28
-#define switch_input_pin_e_enum 0="NONE",80="Digital-In 3 (PE14)",40="Digital-In 4 (PC6)",64="Launch-In (PD14)",26="Table Switch (PB8)",53="VR / Hall 1 (PD3)",54="VR / Hall 2 (PD4)",74="VR / Hall 3 (PE8)",78="VR / Hall 4 (PE12)"
-#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Table Switch (PB8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 4 (PC6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 1 (PD3)","VR / Hall 2 (PD4)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch-In (PD14)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 3 (PE8)","INVALID","INVALID","INVALID","VR / Hall 4 (PE12)","INVALID","Digital-In 3 (PE14)"
+#define switch_input_pin_e_enum 0="NONE",57="Digital-In 1 (PD7)",24="Digital-In 2 (PB6)",80="Digital-In 3 (PE14)",40="Digital-In 4 (PC6)",64="Launch-In (PD14)",26="Table Switch (PB8)",53="VR / Hall 1 (PD3)",54="VR / Hall 2 (PD4)",74="VR / Hall 3 (PE8)",78="VR / Hall 4 (PE12)"
+#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 2 (PB6)","INVALID","Table Switch (PB8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 4 (PC6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 1 (PD3)","VR / Hall 2 (PD4)","INVALID","INVALID","Digital-In 1 (PD7)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch-In (PD14)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 3 (PE8)","INVALID","INVALID","INVALID","VR / Hall 4 (PE12)","INVALID","Digital-In 3 (PE14)"
 #define TABLE_2_LOAD_SIZE 8
 #define TABLE_2_RPM_SIZE 8
 #define TABLE_3_LOAD_SIZE 8
@@ -2041,7 +2041,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.07.19.ffgbigboard.3830261474"
+#define TS_SIGNATURE "rusEFI main.2025.07.19.ffgbigboard.2595354571"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
