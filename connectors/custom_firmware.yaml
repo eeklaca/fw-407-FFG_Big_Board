@@ -393,6 +393,18 @@ pins:
     color: blue
     type: SWIN
 
+  - id: [D7, D7]
+    class: [switch_inputs, event_inputs]
+    ts_name: Digital-In 1 (PD7)
+    color: blue
+    type: SWIN
+
+  - id: [B6, B6]
+    class: [switch_inputs, event_inputs]
+    ts_name: Digital-In 2 (PB6)
+    color: blue
+    type: SWIN
+
   - id: [E14, E14]
     class: [switch_inputs, event_inputs]
     ts_name: Digital-In 3 (PE14)
