@@ -18,6 +18,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::B3: return "SPI1 SCK (PB3)";
 		case Gpio::B4: return "SPI1 MISO (PB4)";
 		case Gpio::B5: return "SPI1 MOSI (PB5)";
+		case Gpio::B6: return "Digital-In 2 (PB6)";
 		case Gpio::B8: return "Table Switch (PB8)";
 		case Gpio::B9: return "Coil 8 (PB9)";
 		case Gpio::C10: return "SPI3 SCK (PC10)";
@@ -37,6 +38,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D15: return "Tacho-Out 2 (PD15)";
 		case Gpio::D3: return "VR / Hall 1 (PD3)";
 		case Gpio::D4: return "VR / Hall 2 (PD4)";
+		case Gpio::D7: return "Digital-In 1 (PD7)";
 		case Gpio::D8: return "Boost (PD8)";
 		case Gpio::D9: return "Idle 1 (PD9)";
 		case Gpio::E0: return "Coil 7 (PE0)";
