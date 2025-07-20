@@ -2041,7 +2041,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.07.19.ffgbigboard.2595354571"
+#define TS_SIGNATURE "rusEFI main.2025.07.20.ffgbigboard.2595354571"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
