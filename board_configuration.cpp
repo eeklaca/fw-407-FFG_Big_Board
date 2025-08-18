@@ -1,4 +1,5 @@
 #include "pch.h"
+#include "board_overrides.h"
 
 static void setInjectorPins() {
 	engineConfiguration->injectionPins[0] = Gpio::B15;
@@ -85,8 +86,14 @@ Gpio getWarningLedPin() {
 	return Gpio::Unassigned;
 }
 
-void setBoardConfigOverrides() {
-	
+// board-specific configuration setup
+static void customBoardDefaultConfiguration() {
+	setupVbatt();
+	setEtbConfig();
+	setStepperConfig();
+	setInjectorPins();
+	setIgnitionPins();
+		
 	engineConfiguration->clt.config.bias_resistor = 2490;
 	engineConfiguration->iat.config.bias_resistor = 2490;
 
@@ -100,16 +107,6 @@ void setBoardConfigOverrides() {
 
 	engineConfiguration->binarySerialTxPin = Gpio::A9;
 	engineConfiguration->binarySerialRxPin = Gpio::A10;
-
-}
-
-// board-specific configuration setup
-void setBoardDefaultConfiguration(void) {
-	setupVbatt();
-	setEtbConfig();
-	setStepperConfig();
-	setInjectorPins();
-	setIgnitionPins();
 
 	engineConfiguration->isSdCardEnabled = true;
 
@@ -135,4 +132,8 @@ void setBoardDefaultConfiguration(void) {
 	engineConfiguration->is_enabled_spi_1 = true;
 	engineConfiguration->is_enabled_spi_2 = false;
 	engineConfiguration->is_enabled_spi_3 = true;
+}
+
+void setup_custom_board_overrides() {
+    custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
 }
