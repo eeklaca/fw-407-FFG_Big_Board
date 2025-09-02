@@ -164,8 +164,8 @@
 #define boostType_e_auto_enum 0="OPEN_LOOP",1="CLOSED_LOOP"
 #define boostType_e_CLOSED_LOOP 1
 #define boostType_e_OPEN_LOOP 0
-#define brain_input_pin_e_enum 0="NONE",57="Digital-In 1 (PD7)",24="Digital-In 2 (PB6)",80="Digital-In 3 (PE14)",40="Digital-In 4 (PC6)",64="Launch-In (PD14)",26="Table Switch (PB8)",53="VR / Hall 1 (PD3)",54="VR / Hall 2 (PD4)",74="VR / Hall 3 (PE8)",78="VR / Hall 4 (PE12)"
-#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 2 (PB6)","INVALID","Table Switch (PB8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 4 (PC6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 1 (PD3)","VR / Hall 2 (PD4)","INVALID","INVALID","Digital-In 1 (PD7)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch-In (PD14)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 3 (PE8)","INVALID","INVALID","INVALID","VR / Hall 4 (PE12)","INVALID","Digital-In 3 (PE14)"
+#define brain_input_pin_e_enum 0="NONE",57="Flex (PD7)",80="Idle-Up (PE14)",64="Launch-In (PD14)",40="Nirtous-In (PC6)",26="Table Switch (PB8)",53="VR / Hall 1 (PD3)",54="VR / Hall 2 (PD4)",74="VR / Hall 3 (PE8)",78="VR / Hall 4 (PE12)",24="VSS (PB6)"
+#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS (PB6)","INVALID","Table Switch (PB8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Nirtous-In (PC6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 1 (PD3)","VR / Hall 2 (PD4)","INVALID","INVALID","Flex (PD7)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch-In (PD14)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 3 (PE8)","INVALID","INVALID","INVALID","VR / Hall 4 (PE12)","INVALID","Idle-Up (PE14)"
 #define brain_pin_diag_e_PIN_DRIVER_OFF 0x20
 #define brain_pin_diag_e_PIN_DRIVER_OVERTEMP 0x10
 #define brain_pin_diag_e_PIN_OK 0
@@ -1407,8 +1407,8 @@
 #define operation_mode_e_FOUR_STROKE_TWELVE_TIMES_CRANK_SENSOR 6
 #define operation_mode_e_OM_NONE 0
 #define operation_mode_e_TWO_STROKE 3
-#define output_pin_e_enum 0="NONE",58="Boost (PD8)",50="Can RX (PD0)",51="Can TX (PD1)",68="Coil 1 (PE2)",69="Coil 2 (PE3)",47="Coil 3 (PC13)",72="Coil 4 (PE6)",70="Coil 5 (PE4)",71="Coil 6 (PE5)",66="Coil 7 (PE0)",27="Coil 8 (PB9)",75="Fan (PE9)",77="Fuel Pump (PE11)",59="Idle 1 (PD9)",62="Idle 2 (PD12)",33="Injector 1 (PB15)",32="Injector 2 (PB14)",30="Injector 3 (PB12)",31="Injector 4 (PB13)",10="Injector 5 (PA8)",73="Injector 6 (PE7)",79="Injector 7 (PE13)",76="Injector 8 (PE10)",60="Out 1 (PD10)",12="RXD1 (PA10)",22="SPI1 MISO (PB4)",23="SPI1 MOSI (PB5)",21="SPI1 SCK (PB3)",45="SPI3 MISO (PC11)",46="SPI3 MOSI (PC12)",44="SPI3 SCK (PC10)",29="TB Control (PB11)",81="TB Dir1 (PE15)",28="TB Dir2 (PB10)",43="TB Disable (PC9)",11="TXD1 (PA9)",63="Tacho-Out 1 (PD13)",65="Tacho-Out 2 (PD15)",61="VVT 1 (PD11)",41="VVT 2 (PC7)"
-#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Injector 5 (PA8)","TXD1 (PA9)","RXD1 (PA10)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","SPI1 SCK (PB3)","SPI1 MISO (PB4)","SPI1 MOSI (PB5)","INVALID","INVALID","INVALID","Coil 8 (PB9)","TB Dir2 (PB10)","TB Control (PB11)","Injector 3 (PB12)","Injector 4 (PB13)","Injector 2 (PB14)","Injector 1 (PB15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VVT 2 (PC7)","INVALID","TB Disable (PC9)","SPI3 SCK (PC10)","SPI3 MISO (PC11)","SPI3 MOSI (PC12)","Coil 3 (PC13)","INVALID","INVALID","Can RX (PD0)","Can TX (PD1)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Boost (PD8)","Idle 1 (PD9)","Out 1 (PD10)","VVT 1 (PD11)","Idle 2 (PD12)","Tacho-Out 1 (PD13)","INVALID","Tacho-Out 2 (PD15)","Coil 7 (PE0)","INVALID","Coil 1 (PE2)","Coil 2 (PE3)","Coil 5 (PE4)","Coil 6 (PE5)","Coil 4 (PE6)","Injector 6 (PE7)","INVALID","Fan (PE9)","Injector 8 (PE10)","Fuel Pump (PE11)","INVALID","Injector 7 (PE13)","INVALID","TB Dir1 (PE15)"
+#define output_pin_e_enum 0="NONE",58="Boost (PD8)",50="Can RX (PD0)",51="Can TX (PD1)",68="Coil 1 (PE2)",69="Coil 2 (PE3)",47="Coil 3 (PC13)",72="Coil 4 (PE6)",70="Coil 5 (PE4)",71="Coil 6 (PE5)",66="Coil 7 (PE0)",27="Coil 8 (PB9)",75="Fan (PE9)",77="Fuel Pump (PE11)",59="Idle 1 (PD9)",62="Idle 2 (PD12)",33="Injector 1 (PB15)",32="Injector 2 (PB14)",30="Injector 3 (PB12)",31="Injector 4 (PB13)",10="Injector 5 (PA8)",73="Injector 6 (PE7)",79="Injector 7 (PE13)",76="Injector 8 (PE10)",60="Out 1 (PD10)",42="Pwm_Out 1 (PC8)",25="Pwm_Out 2 (PB7)",12="RXD1 (PA10)",22="SPI1 MISO (PB4)",23="SPI1 MOSI (PB5)",21="SPI1 SCK (PB3)",45="SPI3 MISO (PC11)",46="SPI3 MOSI (PC12)",44="SPI3 SCK (PC10)",29="TB Control (PB11)",81="TB Dir1 (PE15)",28="TB Dir2 (PB10)",43="TB Disable (PC9)",11="TXD1 (PA9)",63="Tacho-Out 1 (PD13)",65="Tacho-Out 2 (PD15)",61="VVT 1 (PD11)",41="VVT 2 (PC7)"
+#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Injector 5 (PA8)","TXD1 (PA9)","RXD1 (PA10)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","SPI1 SCK (PB3)","SPI1 MISO (PB4)","SPI1 MOSI (PB5)","INVALID","Pwm_Out 2 (PB7)","INVALID","Coil 8 (PB9)","TB Dir2 (PB10)","TB Control (PB11)","Injector 3 (PB12)","Injector 4 (PB13)","Injector 2 (PB14)","Injector 1 (PB15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VVT 2 (PC7)","Pwm_Out 1 (PC8)","TB Disable (PC9)","SPI3 SCK (PC10)","SPI3 MISO (PC11)","SPI3 MOSI (PC12)","Coil 3 (PC13)","INVALID","INVALID","Can RX (PD0)","Can TX (PD1)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Boost (PD8)","Idle 1 (PD9)","Out 1 (PD10)","VVT 1 (PD11)","Idle 2 (PD12)","Tacho-Out 1 (PD13)","INVALID","Tacho-Out 2 (PD15)","Coil 7 (PE0)","INVALID","Coil 1 (PE2)","Coil 2 (PE3)","Coil 5 (PE4)","Coil 6 (PE5)","Coil 4 (PE6)","Injector 6 (PE7)","INVALID","Fan (PE9)","Injector 8 (PE10)","Fuel Pump (PE11)","INVALID","Injector 7 (PE13)","INVALID","TB Dir1 (PE15)"
 #define PACK_ADD_TEMPERATURE 40
 #define PACK_MULT_AFR 1000
 #define PACK_MULT_AFR_CFG 10
@@ -1450,6 +1450,7 @@
 #define pin_output_mode_e_OM_OPENDRAIN 2
 #define pin_output_mode_e_OM_OPENDRAIN_INVERTED 3
 #define poke false
+#define ppsExpAverageAlpha_NAME "Accelerator Exp Average"
 #define PRIME_CURVE_COUNT 8
 #define PROTOCOL_COIL_SHORT_PREFIX "c"
 #define PROTOCOL_CRANK1 "t1"
@@ -1512,7 +1513,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 1650975193
+#define SIGNATURE_HASH 2802079959
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1546,8 +1547,8 @@
 #define stft_state_e_stftDisabledTpsAccel 8
 #define stft_state_e_stftDisabledTuning 2
 #define stft_state_e_stftEnabled 0
-#define switch_input_pin_e_enum 0="NONE",57="Digital-In 1 (PD7)",24="Digital-In 2 (PB6)",80="Digital-In 3 (PE14)",40="Digital-In 4 (PC6)",64="Launch-In (PD14)",26="Table Switch (PB8)",53="VR / Hall 1 (PD3)",54="VR / Hall 2 (PD4)",74="VR / Hall 3 (PE8)",78="VR / Hall 4 (PE12)"
-#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 2 (PB6)","INVALID","Table Switch (PB8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital-In 4 (PC6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 1 (PD3)","VR / Hall 2 (PD4)","INVALID","INVALID","Digital-In 1 (PD7)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch-In (PD14)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 3 (PE8)","INVALID","INVALID","INVALID","VR / Hall 4 (PE12)","INVALID","Digital-In 3 (PE14)"
+#define switch_input_pin_e_enum 0="NONE",57="Flex (PD7)",80="Idle-Up (PE14)",64="Launch-In (PD14)",40="Nirtous-In (PC6)",26="Table Switch (PB8)",53="VR / Hall 1 (PD3)",54="VR / Hall 2 (PD4)",74="VR / Hall 3 (PE8)",78="VR / Hall 4 (PE12)",24="VSS (PB6)"
+#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS (PB6)","INVALID","Table Switch (PB8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Nirtous-In (PC6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 1 (PD3)","VR / Hall 2 (PD4)","INVALID","INVALID","Flex (PD7)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch-In (PD14)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR / Hall 3 (PE8)","INVALID","INVALID","INVALID","VR / Hall 4 (PE12)","INVALID","Idle-Up (PE14)"
 #define TABLE_2_LOAD_SIZE 8
 #define TABLE_2_RPM_SIZE 8
 #define TABLE_3_LOAD_SIZE 8
@@ -2066,7 +2067,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.09.02.ffgbigboard.1650975193"
+#define TS_SIGNATURE "rusEFI main.2025.09.02.ffgbigboard.2802079959"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
