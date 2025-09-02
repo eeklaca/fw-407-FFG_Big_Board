@@ -283,6 +283,20 @@ pins:
     function: RXD1
     color: black
     type: uart
+
+  - id: C8
+    class: outputs
+    ts_name: Pwm_Out 1 (PC8)
+    function: PWM Out 1
+    color: yellow
+    type: pwm_5v
+
+  - id: B7
+    class: outputs
+    ts_name: Pwm_Out 2 (PB7)
+    function: PWM Out 2
+    color: yellow
+    type: pwm_5v
     
   - id: EFI_ADC_0
     class: analog_inputs
@@ -395,25 +409,25 @@ pins:
 
   - id: [D7, D7]
     class: [switch_inputs, event_inputs]
-    ts_name: Digital-In 1 (PD7)
+    ts_name: Flex (PD7)
     color: blue
     type: SWIN
 
   - id: [B6, B6]
     class: [switch_inputs, event_inputs]
-    ts_name: Digital-In 2 (PB6)
+    ts_name: VSS (PB6)
     color: blue
     type: SWIN
 
   - id: [E14, E14]
     class: [switch_inputs, event_inputs]
-    ts_name: Digital-In 3 (PE14)
+    ts_name: Idle-Up (PE14)
     color: blue
     type: SWIN
 
   - id: [C6, C6]
     class: [switch_inputs, event_inputs]
-    ts_name: Digital-In 4 (PC6)
+    ts_name: Nirtous-In (PC6)
     color: blue
     type: SWIN
 
