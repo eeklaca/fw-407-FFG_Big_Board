@@ -44,6 +44,8 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::C9, // TB Disable (PC9)
 	Gpio::A9, // TXD1 (PA9)
 	Gpio::A10, // RXD1 (PA10)
+	Gpio::C8, // Pwm_Out 1 (PC8)
+	Gpio::B7, // Pwm_Out 2 (PB7)
 // "Injector 1 (PB15)",
 // "Injector 2 (PB14)",
 // "Injector 3 (PB12)",
@@ -84,4 +86,6 @@ Gpio GENERATED_OUTPUTS = {
 // "TB Disable (PC9)",
 // "TXD1 (PA9)",
 // "RXD1 (PA10)",
+// "Pwm_Out 1 (PC8)",
+// "Pwm_Out 2 (PB7)",
 }

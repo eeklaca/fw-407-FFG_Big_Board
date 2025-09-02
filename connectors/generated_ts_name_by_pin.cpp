@@ -18,15 +18,17 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::B3: return "SPI1 SCK (PB3)";
 		case Gpio::B4: return "SPI1 MISO (PB4)";
 		case Gpio::B5: return "SPI1 MOSI (PB5)";
-		case Gpio::B6: return "Digital-In 2 (PB6)";
+		case Gpio::B6: return "VSS (PB6)";
+		case Gpio::B7: return "Pwm_Out 2 (PB7)";
 		case Gpio::B8: return "Table Switch (PB8)";
 		case Gpio::B9: return "Coil 8 (PB9)";
 		case Gpio::C10: return "SPI3 SCK (PC10)";
 		case Gpio::C11: return "SPI3 MISO (PC11)";
 		case Gpio::C12: return "SPI3 MOSI (PC12)";
 		case Gpio::C13: return "Coil 3 (PC13)";
-		case Gpio::C6: return "Digital-In 4 (PC6)";
+		case Gpio::C6: return "Nirtous-In (PC6)";
 		case Gpio::C7: return "VVT 2 (PC7)";
+		case Gpio::C8: return "Pwm_Out 1 (PC8)";
 		case Gpio::C9: return "TB Disable (PC9)";
 		case Gpio::D0: return "Can RX (PD0)";
 		case Gpio::D1: return "Can TX (PD1)";
@@ -38,7 +40,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D15: return "Tacho-Out 2 (PD15)";
 		case Gpio::D3: return "VR / Hall 1 (PD3)";
 		case Gpio::D4: return "VR / Hall 2 (PD4)";
-		case Gpio::D7: return "Digital-In 1 (PD7)";
+		case Gpio::D7: return "Flex (PD7)";
 		case Gpio::D8: return "Boost (PD8)";
 		case Gpio::D9: return "Idle 1 (PD9)";
 		case Gpio::E0: return "Coil 7 (PE0)";
@@ -46,7 +48,7 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::E11: return "Fuel Pump (PE11)";
 		case Gpio::E12: return "VR / Hall 4 (PE12)";
 		case Gpio::E13: return "Injector 7 (PE13)";
-		case Gpio::E14: return "Digital-In 3 (PE14)";
+		case Gpio::E14: return "Idle-Up (PE14)";
 		case Gpio::E15: return "TB Dir1 (PE15)";
 		case Gpio::E2: return "Coil 1 (PE2)";
 		case Gpio::E3: return "Coil 2 (PE3)";
