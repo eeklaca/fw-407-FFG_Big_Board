@@ -105,8 +105,8 @@ static void customBoardDefaultConfiguration() {
 	engineConfiguration->can2RxPin = Gpio::Unassigned;
 	engineConfiguration->can2TxPin = Gpio::Unassigned;
 
-	engineConfiguration->binarySerialTxPin = Gpio::A9;
-	engineConfiguration->binarySerialRxPin = Gpio::A10;
+	//engineConfiguration->binarySerialTxPin = Gpio::A9;
+	//engineConfiguration->binarySerialRxPin = Gpio::A10;
 
 	engineConfiguration->isSdCardEnabled = true;
 
@@ -126,12 +126,17 @@ static void customBoardDefaultConfiguration() {
 	engineConfiguration->spi2mosiPin = Gpio::Unassigned;
 	engineConfiguration->spi2misoPin = Gpio::Unassigned;
 	engineConfiguration->spi2sckPin = Gpio::Unassigned;
-	engineConfiguration->spi3mosiPin = Gpio::C12;
-	engineConfiguration->spi3misoPin = Gpio::C11;
-	engineConfiguration->spi3sckPin = Gpio::C10;
+	//engineConfiguration->spi3mosiPin = Gpio::C12;
+	//engineConfiguration->spi3misoPin = Gpio::C11;
+	//engineConfiguration->spi3sckPin = Gpio::C10;
+
+	engineConfiguration->spi3mosiPin = Gpio::Unassigned;
+	engineConfiguration->spi3misoPin = Gpio::Unassigned;
+	engineConfiguration->spi3sckPin = Gpio::Unassigned;
+	
 	engineConfiguration->is_enabled_spi_1 = true;
 	engineConfiguration->is_enabled_spi_2 = false;
-	engineConfiguration->is_enabled_spi_3 = true;
+	engineConfiguration->is_enabled_spi_3 = false;
 }
 
 void setup_custom_board_overrides() {
