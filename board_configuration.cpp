@@ -87,8 +87,7 @@ Gpio getWarningLedPin() {
 }
 
 // board-specific configuration setup
-// static void customBoardDefaultConfiguration() {
-void setBoardConfigOverrides() {
+static void customBoardDefaultConfiguration() {
 	setupVbatt();
 	setEtbConfig();
 	setStepperConfig();
@@ -109,8 +108,6 @@ void setBoardConfigOverrides() {
 	//engineConfiguration->binarySerialTxPin = Gpio::A9;
 	//engineConfiguration->binarySerialRxPin = Gpio::A10;
 	
-}
-void setBoardDefaultConfiguration(void) {
 	engineConfiguration->isSdCardEnabled = true;
 
 	engineConfiguration->triggerInputPins[0] = Gpio::D3;
@@ -141,6 +138,6 @@ void setBoardDefaultConfiguration(void) {
 	engineConfiguration->is_enabled_spi_2 = false;
 	engineConfiguration->is_enabled_spi_3 = false;
 }
-//void setup_custom_board_overrides() {
-//    custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
-//}
+void setup_custom_board_overrides() {
+    custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
+}
