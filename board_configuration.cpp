@@ -139,6 +139,6 @@ static void customBoardDefaultConfiguration() {
 	engineConfiguration->is_enabled_spi_3 = false;
 }
 
-void setup_custom_board_overrides() {
-    custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
-}
+//void setup_custom_board_overrides() {
+//    custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
+//}
