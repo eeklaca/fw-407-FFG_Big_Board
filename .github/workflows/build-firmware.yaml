@@ -15,6 +15,7 @@ jobs:
         meta-info:
         - meta-info-FFG_Big_Board.env
         - meta-info-FFG_Mini.env
+        - meta-info.env
 
     steps:
       - uses: actions/checkout@v4
