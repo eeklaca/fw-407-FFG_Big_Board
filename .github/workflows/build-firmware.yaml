@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        meta_info:
+        meta-info:
         - meta-info-FFG_Big_Board.env
         - meta-info-FFG_Mini.env
         - meta-info.env
@@ -40,13 +40,13 @@ jobs:
 
       - uses: ./ext/rusefi/.github/workflows/custom-board-build
         with:
+          meta-info: ${{matrix.meta-info}}
           new_tag: ${{steps.set-variables.outputs.release_date}}
           artifacts: bin srec hex list map elf bundle autoupdate
           # see above about un-commenting
           uploads: ini ${{steps.set-variables.outputs.upload}}
           push: ${{steps.set-variables.outputs.push}}
           run_simulator: ${{ steps.set-variables.outputs.sim }}
-          meta-info: ${{matrix.meta-info}}
           MY_REPO_PAT: ${{secrets.MY_REPO_PAT}}
           RUSEFI_ONLINE_FTP_USER: ${{secrets.RUSEFI_ONLINE_FTP_USER}}
           RUSEFI_ONLINE_FTP_PASS: ${{secrets.RUSEFI_ONLINE_FTP_PASS}}
