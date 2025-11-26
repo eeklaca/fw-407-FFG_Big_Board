@@ -8,15 +8,30 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-firmware:
+build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         meta-info:
+        - meta-info.env
         - meta-info-FFG_Big_Board.env
         - meta-info-FFG_Mini.env
-        - meta-info.env
 
+    steps:
+    - uses: ./ext/rusefi/.github/workflows/custom-board-build
+      with:
+        meta-info: ${{matrix.meta-info}}
+        MY_REPO_PAT: ${{secrets.MY_REPO_PAT}}
+        RUSEFI_ONLINE_FTP_USER: ${{secrets.RUSEFI_ONLINE_FTP_USER}}
+        RUSEFI_ONLINE_FTP_PASS: ${{secrets.RUSEFI_ONLINE_FTP_PASS}}
+        RUSEFI_FTP_SERVER: ${{secrets.RUSEFI_FTP_SERVER}}
+        RUSEFI_SSH_SERVER: ${{secrets.RUSEFI_SSH_SERVER}}
+        RUSEFI_SSH_USER: ${{secrets.RUSEFI_SSH_USER}}
+        RUSEFI_SSH_PASS: ${{secrets.RUSEFI_SSH_PASS}}
+        ADDITIONAL_ENV: ${{secrets.ADDITIONAL_ENV}}
+        
+  build-firmware:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -40,7 +55,6 @@ jobs:
 
       - uses: ./ext/rusefi/.github/workflows/custom-board-build
         with:
-          meta-info: ${{matrix.meta-info}}
           new_tag: ${{steps.set-variables.outputs.release_date}}
           artifacts: bin srec hex list map elf bundle autoupdate
           # see above about un-commenting
