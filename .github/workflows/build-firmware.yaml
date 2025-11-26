@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        meta-info:
+        meta_info:
         - meta-info-FFG_Big_Board.env
         - meta-info-FFG_Mini.env
         - meta-info.env
