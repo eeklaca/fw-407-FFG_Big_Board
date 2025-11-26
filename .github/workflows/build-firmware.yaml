@@ -21,7 +21,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: true
-          meta-info: ${{matrix.meta-info}}
 
       - name: Set run variables
         id: set-variables
@@ -41,7 +40,7 @@ jobs:
 
       - uses: ./ext/rusefi/.github/workflows/custom-board-build
         with:
-          meta-info: ${{matrix.meta-info}}
+          meta_info: ${{matrix.meta-info}}
           new_tag: ${{steps.set-variables.outputs.release_date}}
           artifacts: bin srec hex list map elf bundle autoupdate
           # see above about un-commenting
