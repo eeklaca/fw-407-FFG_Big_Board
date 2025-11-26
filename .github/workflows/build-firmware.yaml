@@ -45,6 +45,7 @@ jobs:
           uploads: ini ${{steps.set-variables.outputs.upload}}
           push: ${{steps.set-variables.outputs.push}}
           run_simulator: ${{ steps.set-variables.outputs.sim }}
+          meta-info: ${{matrix.meta-info}}
           MY_REPO_PAT: ${{secrets.MY_REPO_PAT}}
           RUSEFI_ONLINE_FTP_USER: ${{secrets.RUSEFI_ONLINE_FTP_USER}}
           RUSEFI_ONLINE_FTP_PASS: ${{secrets.RUSEFI_ONLINE_FTP_PASS}}
