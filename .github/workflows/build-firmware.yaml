@@ -10,12 +10,6 @@ on:
 jobs:
   build-firmware:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        meta-info:
-        - meta-info.env
-        - meta-info-FFG_Big_Board.env
-        - meta-info-FFG_Mini.env
 
     steps:
       - uses: actions/checkout@v4
@@ -40,7 +34,6 @@ jobs:
 
       - uses: ./ext/rusefi/.github/workflows/custom-board-build
         with:
-          meta_info: ${{matrix.meta-info}}
           new_tag: ${{steps.set-variables.outputs.release_date}}
           artifacts: bin srec hex list map elf bundle autoupdate
           # see above about un-commenting
