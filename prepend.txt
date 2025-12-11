@@ -29,6 +29,7 @@
 #define ts_show_ign_key_analog_input true
 #define ts_show_ign_key_switch true
 #define ts_show_inj_diag true
+#define ts_show_communityCommsLedPid true
 
 #define ts_show_cylinder_9 false
 #define ts_show_cylinder_10 false
