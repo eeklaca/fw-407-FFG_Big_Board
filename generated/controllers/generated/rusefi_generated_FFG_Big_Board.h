@@ -1559,7 +1559,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 687694540
+#define SIGNATURE_HASH 312823729
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -2129,6 +2129,7 @@
 #define ts_show_torque_model true
 #define ts_show_tps2 true
 #define ts_show_tps_sent true
+#define ts_show_traction_control true
 #define ts_show_trigger_advanced true
 #define ts_show_trigger_console true
 #define ts_show_trigger_gap_override_flag true
@@ -2163,7 +2164,7 @@
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
 #define ts_show_wbo_canbus_set_type false
-#define TS_SIGNATURE "rusEFI main.2026.03.25.FFG_Big_Board.687694540"
+#define TS_SIGNATURE "rusEFI main.2026.03.26.FFG_Big_Board.312823729"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
