@@ -49,7 +49,7 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::C6:
 			return "Nirtous-In (PC6)";
 		case Gpio::C7:
-			return "VVT 2 (PC7)";
+			return "Boost (PC7)";
 		case Gpio::C8:
 			return "Pwm_Out 1 (PC8)";
 		case Gpio::C9:
@@ -61,7 +61,7 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D10:
 			return "Out 1 (PD10)";
 		case Gpio::D11:
-			return "VVT 1 (PD11)";
+			return "Out 2 (PD11)";
 		case Gpio::D12:
 			return "Idle 2 (PD12)";
 		case Gpio::D13:
@@ -77,7 +77,7 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D7:
 			return "Flex (PD7)";
 		case Gpio::D8:
-			return "Boost (PD8)";
+			return "VVT 2 (PD8)";
 		case Gpio::D9:
 			return "Idle 1 (PD9)";
 		case Gpio::E0:
@@ -109,7 +109,7 @@ const char* getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::E8:
 			return "VR / Hall 3 (PE8)";
 		case Gpio::E9:
-			return "Fan (PE9)";
+			return "VVT 1 (PE9)";
 		default:
 			return nullptr;
 	}

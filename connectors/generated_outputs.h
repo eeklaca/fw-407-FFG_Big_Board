@@ -24,10 +24,10 @@ Gpio GENERATED_OUTPUTS[] = {
 	Gpio::D9, // Idle 1 (PD9)
 	Gpio::D12, // Idle 2 (PD12)
 	Gpio::D10, // Out 1 (PD10)
-	Gpio::D11, // VVT 1 (PD11)
-	Gpio::E9, // Fan (PE9)
-	Gpio::D8, // Boost (PD8)
-	Gpio::C7, // VVT 2 (PC7)
+	Gpio::D11, // Out 2 (PD11)
+	Gpio::E9, // VVT 1 (PE9)
+	Gpio::D8, // VVT 2 (PD8)
+	Gpio::C7, // Boost (PC7)
 	Gpio::D0, // Can RX (PD0)
 	Gpio::D1, // Can TX (PD1)
 	Gpio::B5, // SPI1 MOSI (PB5)
@@ -66,10 +66,10 @@ Gpio GENERATED_OUTPUTS[] = {
 // "Idle 1 (PD9)",
 // "Idle 2 (PD12)",
 // "Out 1 (PD10)",
-// "VVT 1 (PD11)",
-// "Fan (PE9)",
-// "Boost (PD8)",
-// "VVT 2 (PC7)",
+// "Out 2 (PD11)",
+// "VVT 1 (PE9)",
+// "VVT 2 (PD8)",
+// "Boost (PC7)",
 // "Can RX (PD0)",
 // "Can TX (PD1)",
 // "SPI1 MOSI (PB5)",
