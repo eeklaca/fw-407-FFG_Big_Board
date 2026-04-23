@@ -622,6 +622,7 @@
 #define ETB_BIAS_CURVE_LENGTH 8
 #define ETB_COUNT 2
 #define ETB_HW_MAX_FREQUENCY 3000
+#define ETHERNET_PORT 29001
 #define FAN_PWM_CURVE_SIZE 8
 #define FIELD_DISPLACEMENT displacement
 #define FIELD_INJECTOR_FLOW injector.flow
@@ -1444,8 +1445,8 @@
 #define operation_mode_e_FOUR_STROKE_TWELVE_TIMES_CRANK_SENSOR 6
 #define operation_mode_e_OM_NONE 0
 #define operation_mode_e_TWO_STROKE 3
-#define output_pin_e_enum 0="NONE",58="Boost (PD8)",50="Can RX (PD0)",51="Can TX (PD1)",68="Coil 1 (PE2)",69="Coil 2 (PE3)",47="Coil 3 (PC13)",72="Coil 4 (PE6)",70="Coil 5 (PE4)",71="Coil 6 (PE5)",66="Coil 7 (PE0)",27="Coil 8 (PB9)",75="Fan (PE9)",77="Fuel Pump (PE11)",59="Idle 1 (PD9)",62="Idle 2 (PD12)",33="Injector 1 (PB15)",32="Injector 2 (PB14)",30="Injector 3 (PB12)",31="Injector 4 (PB13)",10="Injector 5 (PA8)",73="Injector 6 (PE7)",79="Injector 7 (PE13)",76="Injector 8 (PE10)",60="Out 1 (PD10)",42="Pwm_Out 1 (PC8)",25="Pwm_Out 2 (PB7)",12="RXD1 (PA10)",22="SPI1 MISO (PB4)",23="SPI1 MOSI (PB5)",21="SPI1 SCK (PB3)",45="SPI3 MISO (PC11)",46="SPI3 MOSI (PC12)",44="SPI3 SCK (PC10)",29="TB Control (PB11)",81="TB Dir1 (PE15)",28="TB Dir2 (PB10)",43="TB Disable (PC9)",11="TXD1 (PA9)",63="Tacho-Out 1 (PD13)",65="Tacho-Out 2 (PD15)",61="VVT 1 (PD11)",41="VVT 2 (PC7)"
-#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Injector 5 (PA8)","TXD1 (PA9)","RXD1 (PA10)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","SPI1 SCK (PB3)","SPI1 MISO (PB4)","SPI1 MOSI (PB5)","INVALID","Pwm_Out 2 (PB7)","INVALID","Coil 8 (PB9)","TB Dir2 (PB10)","TB Control (PB11)","Injector 3 (PB12)","Injector 4 (PB13)","Injector 2 (PB14)","Injector 1 (PB15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VVT 2 (PC7)","Pwm_Out 1 (PC8)","TB Disable (PC9)","SPI3 SCK (PC10)","SPI3 MISO (PC11)","SPI3 MOSI (PC12)","Coil 3 (PC13)","INVALID","INVALID","Can RX (PD0)","Can TX (PD1)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Boost (PD8)","Idle 1 (PD9)","Out 1 (PD10)","VVT 1 (PD11)","Idle 2 (PD12)","Tacho-Out 1 (PD13)","INVALID","Tacho-Out 2 (PD15)","Coil 7 (PE0)","INVALID","Coil 1 (PE2)","Coil 2 (PE3)","Coil 5 (PE4)","Coil 6 (PE5)","Coil 4 (PE6)","Injector 6 (PE7)","INVALID","Fan (PE9)","Injector 8 (PE10)","Fuel Pump (PE11)","INVALID","Injector 7 (PE13)","INVALID","TB Dir1 (PE15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID"
+#define output_pin_e_enum 0="NONE",41="Boost (PC7)",50="Can RX (PD0)",51="Can TX (PD1)",68="Coil 1 (PE2)",69="Coil 2 (PE3)",47="Coil 3 (PC13)",72="Coil 4 (PE6)",70="Coil 5 (PE4)",71="Coil 6 (PE5)",66="Coil 7 (PE0)",27="Coil 8 (PB9)",77="Fuel Pump (PE11)",59="Idle 1 (PD9)",62="Idle 2 (PD12)",33="Injector 1 (PB15)",32="Injector 2 (PB14)",30="Injector 3 (PB12)",31="Injector 4 (PB13)",10="Injector 5 (PA8)",73="Injector 6 (PE7)",79="Injector 7 (PE13)",76="Injector 8 (PE10)",60="Out 1 (PD10)",61="Out 2 (PD11)",42="Pwm_Out 1 (PC8)",25="Pwm_Out 2 (PB7)",12="RXD1 (PA10)",22="SPI1 MISO (PB4)",23="SPI1 MOSI (PB5)",21="SPI1 SCK (PB3)",45="SPI3 MISO (PC11)",46="SPI3 MOSI (PC12)",44="SPI3 SCK (PC10)",29="TB Control (PB11)",81="TB Dir1 (PE15)",28="TB Dir2 (PB10)",43="TB Disable (PC9)",11="TXD1 (PA9)",63="Tacho-Out 1 (PD13)",65="Tacho-Out 2 (PD15)",75="VVT 1 (PE9)",58="VVT 2 (PD8)"
+#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Injector 5 (PA8)","TXD1 (PA9)","RXD1 (PA10)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","SPI1 SCK (PB3)","SPI1 MISO (PB4)","SPI1 MOSI (PB5)","INVALID","Pwm_Out 2 (PB7)","INVALID","Coil 8 (PB9)","TB Dir2 (PB10)","TB Control (PB11)","Injector 3 (PB12)","Injector 4 (PB13)","Injector 2 (PB14)","Injector 1 (PB15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Boost (PC7)","Pwm_Out 1 (PC8)","TB Disable (PC9)","SPI3 SCK (PC10)","SPI3 MISO (PC11)","SPI3 MOSI (PC12)","Coil 3 (PC13)","INVALID","INVALID","Can RX (PD0)","Can TX (PD1)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VVT 2 (PD8)","Idle 1 (PD9)","Out 1 (PD10)","Out 2 (PD11)","Idle 2 (PD12)","Tacho-Out 1 (PD13)","INVALID","Tacho-Out 2 (PD15)","Coil 7 (PE0)","INVALID","Coil 1 (PE2)","Coil 2 (PE3)","Coil 5 (PE4)","Coil 6 (PE5)","Coil 4 (PE6)","Injector 6 (PE7)","INVALID","VVT 1 (PE9)","Injector 8 (PE10)","Fuel Pump (PE11)","INVALID","Injector 7 (PE13)","INVALID","TB Dir1 (PE15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID"
 #define PACK_ADD_TEMPERATURE 40
 #define PACK_MULT_AFR 1000
 #define PACK_MULT_AFR_CFG 10
@@ -1564,7 +1565,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 3348205799
+#define SIGNATURE_HASH 3188540398
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -2174,7 +2175,7 @@
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
 #define ts_show_wbo_canbus_set_type false
-#define TS_SIGNATURE "rusEFI main.2026.04.23.FFG_Big_Board.3348205799"
+#define TS_SIGNATURE "rusEFI main.2026.04.23.FFG_Big_Board.3188540398"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
