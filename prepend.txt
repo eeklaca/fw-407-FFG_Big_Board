@@ -31,10 +31,10 @@
 #define ts_show_inj_diag true
 #define ts_show_communityCommsLedPid true
 
-#define ts_show_cylinder_9 false
-#define ts_show_cylinder_10 false
-#define ts_show_cylinder_11 false
-#define ts_show_cylinder_12 false
+#define ts_show_cylinder_9 true
+#define ts_show_cylinder_10 true
+#define ts_show_cylinder_11 true
+#define ts_show_cylinder_12 true
 
 #define ts_show_spi2_enable false
 #define ts_show_spi2_pins false
